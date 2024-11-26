@@ -36,3 +36,15 @@ airflow webserver
 ```bash
 airflow scheduler
 ```
+
+## Optional Steps
+### To create additional users
+```bash
+airflow users create \
+--username admin \
+--password admin \
+--firstname Admin \
+--lastname User \
+--role Admin \
+--email admin@example.com
+```
